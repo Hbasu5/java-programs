@@ -4,8 +4,8 @@ If the program does not run, follow these simple steps.
 
 # Step 1 — Check Your Java Version
 - Open Command Prompt
-- Type two command one after another  ```java -version``` and ```javac -version```
-- You will see something like this -  ```java version "1.8.0"``` and  ```javac version 1.8.0```
+- Type the following two commands one after another  ```java -version``` and ```javac -version```
+- You should see something like this -  ```java version "1.8.0"``` and  ```javac version 1.8.0```
 
 **Both versions must match**
 
@@ -49,7 +49,7 @@ Check the class file version and the Java Runtime version
 
 From here - class file version is ```class file version 61.0``` and Java Runtime version is ```52.0```
 
-What it mean:
+What this mean:
 - The program was compiled using Java 17
 - But your system is running Java 8
 
@@ -82,7 +82,7 @@ Then run: ```java <"FILENAME">```
 
 **Replace <"FILENAME"> with the program name**
 
-**What this does - This forces the program to be compatible with you Java version.**
+**What this does - This forces the program to be compatible with your Java version.**
 
 ---
 
