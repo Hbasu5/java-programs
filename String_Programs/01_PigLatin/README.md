@@ -1,4 +1,4 @@
-# Harshad Number
+# PigLatin Word
 
 ---
 
