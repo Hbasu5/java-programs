@@ -47,16 +47,16 @@ Check the class file version and the Java Runtime version
 
 ```Exception in thread "main" java.lang.UnsupportedClassVersionError: <"PROGRAM NAME"> has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0```
 
-From here - class file version is - ```class file version 61.0``` and Java Runtime version is ```52.0```
+From here - class file version is ```class file version 61.0``` and Java Runtime version is ```52.0```
 
 What it mean:
 - The program was compiled using Java 17
 - But your system is running Java 8
 
-Use the refernce table given below to check JDK version, Class File Version and their corresponding Compile Command (**Force Compatibilty**)
+Use the reference table given below to check JDK version, Class File Version and their corresponding Compile Command (**Force Compatibilty**)
 
 
-| JDK Verision | Class File Version | Compile Command |
+| JDK Version | Class File Version | Compile Command |
 |---|---|---|
 | Java 8 | 52.0 | ```javac --release 8 <"FILENAME">.java``` |
 | Java 11 | 55.0 | ```javac --release 11 <"FILENAME">.java``` |
