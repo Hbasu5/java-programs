@@ -49,7 +49,7 @@ Check the class file version and the Java Runtime version
 
 From here - class file version is ```class file version 61.0``` and Java Runtime version is ```52.0```
 
-What this mean:
+What this means:
 - The program was compiled using Java 17
 - But your system is running Java 8
 
